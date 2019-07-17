@@ -9,3 +9,4 @@ C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\De
 C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.csproj.CoreCompileInputs.cache
 C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.exe
 C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.pdb
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.Adminlog.resources

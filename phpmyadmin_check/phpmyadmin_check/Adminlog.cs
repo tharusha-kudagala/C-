@@ -23,7 +23,10 @@ namespace phpmyadmin_check
         }
 
         private void Adminlog_Load(object sender, EventArgs e)
-        { 
+        {
+            Form1 obj = new Form1();
+            string uname = Convert.ToString(obj.User());
+            label1.Text = uname;
             
         }
     }
