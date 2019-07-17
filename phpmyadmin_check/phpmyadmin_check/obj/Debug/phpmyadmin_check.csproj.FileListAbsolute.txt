@@ -1,0 +1,11 @@
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\bin\Debug\phpmyadmin_check.exe.config
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\bin\Debug\phpmyadmin_check.exe
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\bin\Debug\phpmyadmin_check.pdb
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.csprojAssemblyReference.cache
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.drlog.resources
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.Form1.resources
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.Properties.Resources.resources
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.csproj.GenerateResource.cache
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.csproj.CoreCompileInputs.cache
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.exe
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.pdb
