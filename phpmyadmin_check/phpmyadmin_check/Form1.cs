@@ -19,19 +19,22 @@ namespace phpmyadmin_check
             InitializeComponent();
             textBox2.PasswordChar = '•';
         }
-
+        
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
+           
+
             string con = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Database\HMS.mdf;Integrated Security=True;Connect Timeout=30";
             string qry = "SELECT * From login WHERE username = '"+textBox1.Text.Trim()+"' and password = '"+textBox2.Text.Trim()+"'";
             SqlDataAdapter adp = new SqlDataAdapter(qry, con);
             DataTable tb = new DataTable();
             adp.Fill(tb);
+            
             if (tb.Rows.Count == 1 && textBox1.Text.Contains("D") && textBox1.Text.Length == 4)
             {
                 drlog obj = new drlog();
@@ -56,11 +59,7 @@ namespace phpmyadmin_check
             else
                 MessageBox.Show("Invalid Username or Password");
         }
-        public string User()
-        {
-            return textBox1.Text;
-        }
-
+      
         private void button2_Click(object sender, EventArgs e)
         {
             Close();
@@ -72,6 +71,11 @@ namespace phpmyadmin_check
             {
                 button1_Click(e,e);
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

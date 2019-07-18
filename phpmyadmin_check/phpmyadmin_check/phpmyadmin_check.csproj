@@ -52,6 +52,12 @@
     <Compile Include="Adminlog.Designer.cs">
       <DependentUpon>Adminlog.cs</DependentUpon>
     </Compile>
+    <Compile Include="DrDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DrDB.Designer.cs">
+      <DependentUpon>DrDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="drlog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PatientDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientDB.Designer.cs">
+      <DependentUpon>PatientDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="pharlog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,11 +87,17 @@
     <EmbeddedResource Include="Adminlog.resx">
       <DependentUpon>Adminlog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DrDB.resx">
+      <DependentUpon>DrDB.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="drlog.resx">
       <DependentUpon>drlog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientDB.resx">
+      <DependentUpon>PatientDB.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
