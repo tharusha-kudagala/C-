@@ -17,6 +17,13 @@ namespace phpmyadmin_check
         {
             InitializeComponent();
             textBox4.PasswordChar = '•';
+            if (radioButton1.Checked == true)
+            {
+                label1.Show(); label2.Show(); label3.Show(); label4.Show();
+                textBox1.Show(); textBox2.Show(); textBox3.Show(); textBox4.Show();
+                button1.Show(); button2.Hide(); button3.Hide();
+                textBox1.Clear(); textBox2.Clear(); textBox3.Clear(); textBox4.Clear();
+            }
         }
         int x = 0;
         private void DrDB_Load(object sender, EventArgs e)
@@ -28,13 +35,7 @@ namespace phpmyadmin_check
             DataSet set = new DataSet();
             adp.Fill(set, "login");
             dataGridView1.DataSource = set.Tables["login"];
-            if(radioButton1.Checked == true)
-            {
-                label1.Show(); label2.Show(); label3.Show(); label4.Show();
-                textBox1.Show(); textBox2.Show(); textBox3.Show(); textBox4.Show();
-                button1.Show(); button2.Hide(); button3.Hide();
-                textBox1.Clear(); textBox2.Clear(); textBox3.Clear(); textBox4.Clear();
-            }
+            
         }
         
         private void button1_Click(object sender, EventArgs e)
