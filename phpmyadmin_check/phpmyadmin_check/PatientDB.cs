@@ -164,9 +164,20 @@ namespace phpmyadmin_check
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Adminlog obj = new Adminlog();
-            this.Hide();
-            obj.Show();
+            Form1 hi = new Form1();
+            string ph = Form1.phrm;
+            if (ph == "admin")
+            {
+                Adminlog obj = new Adminlog();
+                this.Hide();
+                obj.Show();
+
+            }
+            else
+            {
+                this.Hide();
+                hi.Show();
+            }
         }
     }
 }

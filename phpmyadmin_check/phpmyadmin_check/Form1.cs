@@ -13,13 +13,14 @@ namespace phpmyadmin_check
 {
     public partial class Form1 : Form
     {
-        
+        public static string phrm ="";
         public Form1()
         {
             InitializeComponent();
             textBox2.PasswordChar = '•';
+                
         }
-        
+       // public bool back;
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -27,7 +28,17 @@ namespace phpmyadmin_check
 
         public void button1_Click(object sender, EventArgs e)
         {
-           
+            if(textBox1.Text.Contains("A"))
+            {
+                phrm = "admin";
+                
+            }
+            else 
+            {
+                phrm = "login";
+                
+            }
+
 
             string con = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Database\HMS.mdf;Integrated Security=True;Connect Timeout=30";
             string qry = "SELECT * From login WHERE username = '"+textBox1.Text.Trim()+"' and password = '"+textBox2.Text.Trim()+"'";
@@ -44,6 +55,7 @@ namespace phpmyadmin_check
 
             else if (tb.Rows.Count == 1 && textBox1.Text.Contains("P") && textBox1.Text.Length == 3)
             {
+                phrm = "p";
                 pharlog obj = new pharlog();
                 this.Hide();
                 obj.Show();
@@ -56,13 +68,20 @@ namespace phpmyadmin_check
                 this.Hide();
                 obj.Show();
             }
+
+            else if (tb.Rows.Count == 1 && textBox1.Text.Contains("R") && textBox1.Text.Length == 3)
+            {
+                PatientDB obj = new PatientDB();
+                this.Hide();
+                obj.Show();
+            }
             else
                 MessageBox.Show("Invalid Username or Password");
         }
       
         private void button2_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
         private void textBox2_KeyDown(object sender, KeyEventArgs e)

@@ -63,5 +63,19 @@ namespace phpmyadmin_check
             this.Hide();
             obj.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pharlog obj = new pharlog();
+            this.Hide();
+            obj.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Register obj = new Register();
+            this.Hide();
+            obj.Show();
+        }
     }
 }

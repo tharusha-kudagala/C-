@@ -44,7 +44,7 @@ namespace phpmyadmin_check
             {
                 MessageBox.Show("Fill all the fields");
             }
-            else
+            else if(textBox3.Text.Length==4 && textBox3.Text.Contains("D"))
             {
                 SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Database\HMS.mdf;Integrated Security=True;Connect Timeout=30");
                 con.Open();
@@ -62,6 +62,10 @@ namespace phpmyadmin_check
                 {
                     con.Close();
                 }
+            }
+            else
+            {
+                MessageBox.Show("Invalid Dr ID");
             }
             
 
@@ -136,6 +140,11 @@ namespace phpmyadmin_check
             Adminlog obj = new Adminlog();
             this.Hide();
             obj.Show();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

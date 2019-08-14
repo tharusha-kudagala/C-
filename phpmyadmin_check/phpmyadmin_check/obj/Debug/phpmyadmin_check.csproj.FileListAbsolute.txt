@@ -10,3 +10,31 @@ C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\De
 C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.exe
 C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.pdb
 C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.Adminlog.resources
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.DrDB.resources
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.PatientDB.resources
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.pharlog.resources
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.Register.resources
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\bin\Debug\phpmyadmin_check.exe.manifest
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\bin\Debug\phpmyadmin_check.application
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.exe.manifest
+C:\Users\Tharusha Kudagala\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.application
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\bin\Debug\phpmyadmin_check.exe.config
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\bin\Debug\phpmyadmin_check.exe.manifest
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\bin\Debug\phpmyadmin_check.application
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\bin\Debug\phpmyadmin_check.exe
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\bin\Debug\phpmyadmin_check.pdb
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.csprojAssemblyReference.cache
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.Adminlog.resources
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.DrDB.resources
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.drlog.resources
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.Form1.resources
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.PatientDB.resources
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.pharlog.resources
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.Properties.Resources.resources
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.Register.resources
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.csproj.GenerateResource.cache
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.csproj.CoreCompileInputs.cache
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.exe.manifest
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.application
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.exe
+D:\Degree\source\repos\phpmyadmin_check\phpmyadmin_check\obj\Debug\phpmyadmin_check.pdb
